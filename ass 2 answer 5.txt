@@ -1,0 +1,73 @@
+5.Bubble Sort:
+Advantages:
+
+Easy to understand and implement.
+Requires minimal additional memory (in-place sorting).
+Performs well for small datasets or mostly sorted datasets.
+Disadvantages:
+
+Inefficient for large datasets or datasets with a high degree of disorder.
+Has a time complexity of O(n^2), making it less suitable for large datasets.
+Not adaptive; its performance doesn't improve if the data is partially sorted.
+Quicksort:
+Advantages:
+
+Efficient for large datasets; has an average-case time complexity of O(n log n).
+In-place sorting, which means it doesn't require much additional memory.
+Works well in practice and is widely used.
+Disadvantages:
+
+Worst-case time complexity is O(n^2), but this is rare with good pivot selection.
+Not stable; the order of equal elements may change.
+Requires a good pivot strategy for optimal performance.
+Mergesort:
+Advantages:
+
+Consistent performance with a guaranteed worst-case time complexity of O(n log n).
+Stable; maintains the order of equal elements.
+Suitable for linked lists as well as arrays.
+Disadvantages:
+
+Requires additional memory proportional to the size of the dataset.
+Slower compared to efficient in-place algorithms for small datasets.
+More complex to implement than Bubble Sort or Quicksort.
+When to Use Each Algorithm:
+Bubble Sort:
+
+Use when simplicity and minimal memory usage are crucial.
+Suitable for small datasets or partially sorted datasets.
+Quicksort:
+
+Use for large datasets where average-case performance matters.
+When in-place sorting is required, and memory usage needs to be minimized.
+Mergesort:
+
+Use when a consistent and guaranteed worst-case performance is essential.
+Suitable for linked lists or situations where additional memory is not a constraint.
+
+
+All submissions must be made via github pull requests. no doccuments would be reviewed for a grade.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

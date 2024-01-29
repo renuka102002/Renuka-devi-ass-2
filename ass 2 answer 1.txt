@@ -1,0 +1,43 @@
+1. Given array is  [6, 8, 3, 1, 4]
+lets apply Bubble sort algorithm 
+now the index of given array is starts from 0 to 3 because the size of array is 4 .
+
+Step 1:
+
+Compare 6 and 8, no swap needed.
+Array remains: [6, 8, 3, 1, 4]
+Step 2:
+
+Compare 8 and 3, swap because 3 is smaller.
+Array becomes: [6, 3, 8, 1, 4]
+Step 3:
+
+Compare 8 and 1, swap because 1 is smaller.
+Array becomes: [6, 3, 1, 8, 4]
+Step 4:
+
+Compare 8 and 4, swap because 4 is smaller.
+Array becomes: [6, 3, 1, 4, 8]
+Step 5:
+
+Compare 6 and 3, swap because 3 is smaller.
+Array becomes: [3, 6, 1, 4, 8]
+Step 6:
+
+Compare 6 and 1, swap because 1 is smaller.
+Array becomes: [3, 1, 6, 4, 8]
+Step 7:
+
+Compare 6 and 4, swap because 4 is smaller.
+Array becomes: [3, 1, 4, 6, 8]
+Step 8:
+
+Compare 6 and 8, no swap needed.
+Array remains: [3, 1, 4, 6, 8]
+Now, the array is sorted in ascending order using the bubble sort technique.
+
+
+
+
+
+
